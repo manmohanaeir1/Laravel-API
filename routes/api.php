@@ -9,3 +9,4 @@ Route::get('/user', function (Request $request) {
 
 
 Route::post(uri: '/register', action:[App\Http\Controllers\AuthController::class, 'register']);
+Route::post(uri: '/login', action:[App\Http\Controllers\AuthController::class, 'login']);
